@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover,
+select:-webkit-autofill,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:hover {
+  background-color: inherit !important;
+  background-image: none !important;
+  color: white !important;
+  -webkit-box-shadow: none !important;
+}
+
+body {
+  font-size: 14px;
+  font-family: $font-family-base;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.3px;
+  color: #172b4d;
+  line-height: 1.42857143;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #16324f;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: #224365;
+  }
+}
+
+//a, button, input {
+//  outline: none !important;
+//}
+//
+//:focus, :active {
+//  border: 0;
+//  outline: none;
+//}
+h1 {
+  font-size: $-h1;
+}
+h2 {
+  font-size: $-h2;
+}
+h3 {
+  font-size: $-h3;
+}
+h4 {
+  font-size: $-h4;
+}
+h5 {
+  font-size: $-h5;
+}
+h6 {
+  font-size: $-h6;
+}
+p {
+  font-size: $para-font;
+}
+h2 {
+  font-weight: 400;
+  color: black;
+  line-height: 40px;
+}
+
+a:hover,
+a:focus,
+a:active,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn {
+  text-decoration: none !important;
+  transition: background-color 0.2s ease 0s, border-color 0.6s ease 0s,
+    color 0.2s ease 0s;
+}
+
+.underline {
+  //border-bottom: solid 1px $color-primary;
+  padding-bottom: 3px;
+  //color: $color-primary !important;
+}
+
+.error {
+  color: #ea4031;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline-offset: -2px;
+}
+
+.form_group_modify.error > div input,
+.form_group_modify.error > div select,
+.form_group_modify.error > div textarea,
+.form_group_modify.error > input,
+.form_group_modify.error > select,
+.form_group_modify.error > textarea,
+input.error,
+select.error,
+td.error > input,
+textarea.error {
+  border-color: #ea4031 !important;
+  border-left-width: 3px;
+}
+
+.input_modify:focus,
+.custom_select:focus {
+  border-color: #4c9aff;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.input_modify:focus {
+  border-color: #4c9aff;
+  box-shadow: 0 2px 3px 0 rgba(76, 154, 255, 0.35);
+}
+
+.input_modify:hover {
+  border-color: #4c9aff;
+}

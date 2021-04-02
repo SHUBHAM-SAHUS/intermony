@@ -1,0 +1,87 @@
+.dark-theme{
+  background: #f1f4f5;
+}
+.app-header {
+  background-color: $secondary;
+}
+.app-sidebar__toggle span {
+  background: $primary-color;
+  color: $white;
+}
+.app-sidebar {
+  background-color: $light-theme;
+}
+.app-menu__item {
+  color: $side-nav-text;
+  i {
+    color: $side-nav-text;
+  }
+}
+.app-menu__item.active,
+.app-menu__item:hover,
+.app-menu__item:focus {
+  background-color: $active-sidebar-background !important;
+  color: $primary-color !important;
+  i {
+    color: $primary-color;
+  }
+}
+.app_title {
+  color: $primary-text-color;
+}
+.left_sidebar_Content {
+  background: $primary-color;
+}
+.app-sidebar .app-sidebar_Heading {
+  color: $side-nav-text;
+}
+.underline {
+  color: $primary-text-color !important;
+}
+.app-menu__item .icons_white {
+  display: none;
+}
+.app-menu__item .icons_blue {
+  display: inline-block;
+}
+.app-menu__item.active .icons_white,
+.app-menu__item:hover .icons_white,
+.app-menu__item:focus .icons_white {
+  display: inline-block;
+}
+.app-menu__item.active .icons_blue,
+.app-menu__item:hover .icons_blue,
+.app-menu__item:focus .icons_blue {
+  display: none;
+}
+.card-header {
+  background: $primary-color;
+  .card-title {
+    color: $white;
+  }
+}
+.btn-theme-primary {
+  background-color: $light-theme;
+  color: #0747a6;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+@media (min-width: 768px) {
+  .sidebar-mini.sidenav-toggled .app-menu__label {
+    background: $primary-color;
+  }
+}
+@media (max-width: 991px) {
+  .mobile_toggle_right i {
+    color: $primary-text-color;
+  }
+  .mobile_toggle_right i:hover,
+  .mobile_toggle_right i:focus {
+    color: $primary-text-color;
+  }
+  .left_sidebar_wrapper .cross-icon {
+    background: $primary-color;
+    color: $white;
+  }
+}

@@ -1,0 +1,74 @@
+.topheader_right_content {
+  .notification {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    .notification-title {
+      padding-top: 10px;
+    }
+    .notification-icon {
+      fill: #676767;
+    }
+    .notification_circle {
+      right: 12px;
+      top: 15px;
+    }
+  }
+  .profile-menu {
+    .profile-icon {
+      height: 40px;
+      width: 40px;
+      min-width: 40px !important;
+      border-radius: 50% !important;
+      img {
+        height: auto;
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.active {
+  background-color: #00000008 !important;
+  .unread-icon {
+    color: #0747A6;
+    font-size: 15px;
+    height: 15px;
+  }
+}
+#customized-menu {
+  ul {
+    padding: 0;
+  }
+  .MuiListItemIcon-root {
+    min-width: 30px;
+  }
+}
+.notification-menu-item {
+  font-size: 12px;
+  img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+}
+#notification-menu , #customized-menu {
+  .MuiPopover-paper {
+    top: 75px !important;
+    margin-top: 0 !important;
+  }
+}
+.app-header__logo {
+  padding: 10px 0;
+  img {
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .app-header__logo {
+    display: none;
+  }
+}

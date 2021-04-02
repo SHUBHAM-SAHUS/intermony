@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  overflow: hidden !important;
+  //padding: 0 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+@import "~toastr/toastr.scss";
+@import "./assets/custom-styles/style.scss";

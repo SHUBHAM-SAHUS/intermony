@@ -1,0 +1,3 @@
+export {
+    getConfigList
+} from './action';

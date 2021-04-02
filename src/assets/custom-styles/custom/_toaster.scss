@@ -1,0 +1,47 @@
+//toaster styles
+
+@mixin toast-style($border-color, $title-color) {
+  background-color: #fff;
+  border-left: 10px solid $border-color;
+  .toast-title {
+    color: $title-color;
+  }
+}
+#toast-container {
+  .toast {
+    opacity: 1;
+    width: 350px;
+    padding: 15px 15px 15px 20px;
+  }
+  .toast-success {
+    @include toast-style($primary-color, #51a351);
+  }
+
+  .toast-error {
+    @include toast-style(#bd362f, #bd362f);
+  }
+
+  .toast-info {
+    @include toast-style(#2f96b4, #2f96b4);
+  }
+
+  .toast-message {
+    word-wrap: break-word;
+    color: #4d4f5c;
+    a,
+    label {
+      color: #bd362f;
+    }
+    a:hover {
+      color: #cccccc;
+      text-decoration: none;
+    }
+  }
+
+  .toast-close-button {
+    color: #777777;
+    text-shadow: 0 1px 0 #ff6132;
+  }
+}
+
+//toaster styles

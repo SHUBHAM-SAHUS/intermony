@@ -1,0 +1,102 @@
+$body-font-family: 'Poppins', sans-serif;
+$heading-font-family: 'Poppins', sans-serif;
+$body-font-size: 16px;
+
+// Font Weights
+$ft_bold_700: 700;
+$ft_semibold_600: 600;
+$ft_medium_500: 500;
+$ft_regular_400: 400;
+// Transition
+$transition: all 0.5s;
+
+body{
+  font-size: $body-font-size;
+  font-family: $body-font-family;
+  color: $white;
+  font-weight:$ft_regular_400;
+  margin:0;
+  line-height:26px;
+  overflow-x:hidden;
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+// Font Size Define
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-size: $body-font-family;
+ }
+
+$-h1: 35px;
+$-h2: 28px;
+$-h3: 26px;
+$-h4: 18px;
+$-h5: 16px;
+$-h6: 14px;
+$para-font: 16px;
+$border-rad5: 5px;
+
+h1 {
+  font-size: $-h1;
+  margin:0;
+}
+h2 {
+  font-size: $-h2;
+  margin:0;
+}
+h3 {
+  font-size: $-h3;
+  margin:0;
+}
+h4 {
+  font-size: $-h4;
+  margin:0;
+}
+h5 {
+  font-size: $-h5;
+  margin:0;
+}
+h6 {
+  font-size: $-h6;
+  margin:0;
+}
+p {
+  font-size: $para-font;
+  margin: 0;
+}
+a{
+	color:$primary-color;
+	font-weight: $ft_regular_400;
+	text-transform:capitalize;
+	text-decoration:none;
+	-webkit-transition: $transition;
+	  -o-transition: $transition;
+	  -ms-transition: $transition;
+	  -moz-transition: $transition;
+	  transition: $transition;
+	  &:hover{
+		color:$primary-color;
+		text-decoration:none;
+		-webkit-transition: $transition;
+		  -o-transition: $transition;
+		  -ms-transition: $transition;
+		  -moz-transition: $transition;
+		  transition: $transition;
+	  }
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+input{
+	&:focus{
+		box-shadow:none;
+		outline:none;
+	}
+}
+// Custom 

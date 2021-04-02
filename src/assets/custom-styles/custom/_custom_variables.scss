@@ -1,0 +1,51 @@
+//colors
+$black:   #000000;
+$white:  #ffffff;
+
+$primary-color: #EA3F3F;
+$secondary-color: #FB3D6B;
+$heading-color:#141414;
+
+$gray-100: #989DAD;
+$gray-400: #E5E5E5;
+$gray-600: #323643;
+
+//colors
+
+$primary: #006aff;
+$secondary: #262933;
+$gray: #4a4a4a !default;
+$blue: #66afe9 !default;
+$theme_univ: #16324f !default;
+$theme_univ_hov: #224365 !default;
+$theme_body_clr: #31323c !default;
+$theme_danger: #ea4031 !default;
+$blue-100: rgba(102, 175, 233, 0.35) !default;
+//$gray-100: #ccc;
+//$gray-400: #eee;
+$black-150: rgba(0, 0, 0, 0.15);
+$theme_link: #3e92cc;
+$theme_link_hv: #2f3192;
+
+$mehron: #850038;
+$mehron-600: #9b2c59;
+$mehron-300: rgba(233, 88, 46, 0.37);
+$filter_link: #566975;
+$form_control_border: #b3bbc1;
+$cal_month: #2b3034;
+$main_content_bg: #fefefe;
+// Fonts
+$font-family-base: "Poppins", sans-serif;
+// stylelint-enable value-keyword-case
+$font-size-base: 0.9375rem !default; // Assumes the browser default, typically `16px`
+$-h1: 2.25rem;
+$-h2: 2rem;
+$-h3: 1.75rem;
+$-h4: 1.5rem;
+$-h5: 1.25rem;
+$-h6: 1.125rem;
+$para-font: 1rem;
+
+// theme dark
+$theme-gray: #5c616f;
+$color-secondary: #2d323e;
